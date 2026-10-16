@@ -10,6 +10,8 @@
   improved on the Erlang target.
 - The performance of the `inspect` function from the `string` module for floats
   has been improved on the Erlang target.
+- Fixed a bug where `uri.parse` on the JavaScript target would parse the start
+  of a relative reference as a scheme.
 
 ## v1.0.5 - 2026-08-06
 
